@@ -4,6 +4,9 @@
 ## Project Overview
 This repository contains a Collaborative Filtering recommendation system built to address "choice overload" in high-volume online retail environments. Utilizing the Olist Brazilian E-Commerce dataset, the model maps historical user-item interactions to generate personalized product recommendations, optimizing for Average Order Value (AOV) uplift and engagement.
 
+## Dataset
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
 ## Technical Architecture
 *   **Algorithm:** Singular Value Decomposition (SVD) Matrix Factorization
 *   **Hyperparameter Tuning:** `GridSearchCV` (192 combinations)
