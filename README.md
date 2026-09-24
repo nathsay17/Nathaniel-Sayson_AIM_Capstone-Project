@@ -15,14 +15,14 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 *   **Hardware Profile:** Optimized for local GPU execution (e.g., NVIDIA RTX 3060) during hyperparameter grid search.
 
 ## Repository Structure
-*   `data/`: Contains the raw interaction datasets (Note: CSVs ignored in version control).
+*   `data/`: Directory for raw interaction datasets (CSVs ignored in version control).
 *   `notebooks/`: Jupyter notebooks detailing EDA, preprocessing, model training, and bias audits.
-*   `models/`: Serialized `.pkl` files of the optimized SVD architecture and product lists.
+*   `models/`: Directory for serialized `.pkl` files generated during model training (ignored in version control due to file size).
 *   `src/`: Python scripts for deployment (`app.py`).
 *   `powerpoint/`: Presentation assets and final reports.
 
 ## Local Installation & Execution
-1. **Clone the repository and install dependencies:**
-   ```bash
-   git clone <your-github-repo-url>
-   pip install -r requirements.txt
+**1. Clone the repository and install dependencies:**
+```bash
+git clone <your-github-repo-url>
+pip install -r requirements.txt
