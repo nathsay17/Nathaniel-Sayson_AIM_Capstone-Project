@@ -28,18 +28,18 @@ git clone <your-github-repo-url>
 pip install -r requirements.txt
 ```
 
-**2. Download the Dataset:
+**2. Download the Dataset:**
 The Olist dataset is too large for version control. Download the CSV files directly from the Kaggle link above and place them inside the `data/` folder.
 
-**3. Generate the Models:
+**3. Generate the Models:**
 Run `notebooks/Capstone.ipynb` top-to-bottom. This will train the SVD model and automatically export the required `svd_model.pkl` and `unique_products.pkl` files into the `models/` directory.
 
-**4. Run the Recommendation API:
+**4. Run the Recommendation API:**
 Navigate to the source folder and launch the FastAPI server:
 ```bash
 cd src
 python app.py
 ```
 
-5. Test the Endpoints:
+**5. Test the Endpoints:**
 Open a web browser and navigate to the interactive Swagger UI at `http://127.0.0.1:8000/docs` to test user IDs.
