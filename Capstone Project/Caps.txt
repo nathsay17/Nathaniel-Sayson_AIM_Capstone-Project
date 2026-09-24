@@ -1,0 +1,133 @@
+Capstone Project
+To demonstrate the end-to-end application of the machine learning lifecycle—including problem framing, data preprocessing, modelling, evaluation and result communication—on a real-world, industry-relevant dataset of choice.
+
+Learning Outcome Addressed
+> Develop a robust foundational understanding of artificial intelligence (AI) and machine learning (ML) concepts and technologies
+> Equip learners with the knowledge and skills to identify and implement AI solutions across various sectors effectively.
+> Develop proficiency in AI/ML tools and frameworks.
+> Develop a holistic understanding of AI concepts and techniques, enabling them to effectively address complex real-world problems by designing, implementing and evaluating AI and ML models.
+> Develop hands-on skills in modelling, training and deploying these models in real-world applications.
+
+Project Domain: 
+> eCommerce: Recommend products to users
+
+Step-by-Step Instructions:
+Step 1: Problem Understanding & Framing 
+> Frame the business and data science problem clearly.
+> Define whether it's a classification, regression, recommendation, anomaly detection, or clustering task.
+> Specify success metrics (e.g., Accuracy, AUC, RMSE, Silhouette Score) and business KPIs (e.g., cost savings, uplift).
+> Capstone linkage: Module 1 output maps to Capstone Steps 1–3.
+Deliverable: Clear problem statement + task type + target metric.
+
+Step 2: Data Collection & Understanding
+> Use public datasets (Kaggle, UCI, APIs, etc.) or approved custom data.
+> Summarise feature types, missing values, outliers, etc.
+> Provide a data dictionary (variables, types, units, allowed values).
+Deliverable: Dataset overview + data dictionary.
+
+Step 3: Data Preprocessing, Applied EDA & Feature Engineering 
+> Clean data: Handle nulls, duplicates and outliers.
+> Engineer features: Scaling, encoding, binning and domain-derived features.
+> Applied EDA: Distributions, relationships, clustering tendency (if unsupervised).
+> Feature importance & explainability: SHAP, LIME, or model-based importances.
+> Feature selection: At least one approach (filter, wrapper, or embedded).
+> Dimensionality reduction: PCA (and t-SNE/UMAP for visualisation if needed).
+Deliverable: "EDA + Feature Engineering Report" with reproducible code & justifications.
+
+Step 4: Model Implementation 
+> Experiment with appropriate models:
+    a. Supervised: Logistic Regression, Decision Trees, Random Forest, XGBoost, SVM, etc.
+    b. Unsupervised: K-Means, DBSCAN, Hierarchical (Elbow, Silhouette).
+    c. Recommendation: Collaborative or content-based.
+    d. Deep Learning: RNNs, CNNs, LSTMs, Transformers (if appropriate).
+> Evaluation: compare with relevant metrics.
+> Reproducibility: save configs and artefacts (models/).
+Deliverables: Trained models, metrics and comparison between models.
+
+Step 5: Critical Thinking → Ethical AI & Bias Auditing 
+> Explain model decisions (SHAP, LIME, PDP, ICE).
+> Address limitations (imbalance, leakage, overfitting).
+> Bias detection & fairness audits:
+    a. Check outputs across sensitive groups (gender, race, age, socioeconomic status).
+    b. Use fairness metrics (demographic parity, equalised odds, disparate impact).
+    c. Propose mitigations (reweighting, thresholds, augmentation, post-processing).
+Deliverable: "Bias & Fairness Analysis" section in the final report.
+
+Step 6: Final Presentation & Communication 
+> Two deliverables for mixed audiences:
+    a. Technical presentation (Jupyter slides / LaTeX Beamer) → peers.
+    b. Business-facing presentation (PowerPoint / Canva) → executives (ROI, risks, strategy).
+    c. 8–12 slides per deck recommended.
+Deliverables: Two slide decks (technical + business).
+
+Step 7: GitHub Profile & Upload 
+> Create a public GitHub repo  structured like an Open Source project:
+> Include: src/ for scripts, notebooks/, data/, models/ directories.
+Deliverables: GitHub repo link + final report + reproducible code.
+
+(Optional) Step 8: Deployment & MLOps
+Complete this step if you have a good understanding of model deployment and MLOps practices.
+
+> Local deployment (required): deploy the best model via Flask, FastAPI, or Dash.
+> Optional cloud: AWS SageMaker, GCP Vertex AI, or Azure ML.
+> MLOps practices:
+    a. Reproducible environments (requirements.txt, Docker).
+    b. Config-driven runs & experiment tracking (MLflow, W&B, etc.).
+    c. CI checks (lint, unit tests), basic monitoring plan.
+    d. Versioning & rollback plan.
+>Provide a demo (GIF/screencast).
+Deliverables: Running app + deployment guide + demo media.
+
+(Optional) Step 9: Use of Generative AI 
+> You may optionally use Generative AI tools to:
+    a. Use LLMs to auto-generate EDA summaries or data dictionaries. 
+    b. Build GenAI-enhanced applications (e.g., LLM-backed recommenders, chatbots)
+Deliverable:
+    a. Document how Generative AI was used in the project
+    b. Include code + examples in the GitHub repo or presentation
+    c. Demo video.
+Bonus points (up to +5) will be awarded for a creative and well-presented submission.
+
+Project Rubric:
+Step 1: Problem Understanding & Framing
+a. Problem clearly framed with strong business context and data science perspective.
+b. Task type (classification/regression/etc) correctly identified and justified. 
+c. Success metrics (technical + business KPIs) are relevant, measurable, and well-explained.
+
+Step 2: Data Collection & Understanding
+a. High-quality dataset chosen and justified (source cited).
+b. Comprehensive dataset overview: feature types, missing values, outliers, distributions.
+c. Clear, complete data dictionary (variables, types, ranges/units).
+
+Step 3: Data Preprocessing, EDA & Feature Engineering
+a. All preprocessing steps documented with reproducible code.
+b. Clear handling of nulls, outliers, and duplicates.
+c. Insightful applied EDA with visuals, distributions, and correlations.
+d. Feature engineering shows domain knowledge and creativity.
+e. At least one feature selection + dimensionality reduction method used and justified.
+
+Step 4: Model Implementation & Comparison
+a. Multiple models implemented and tuned appropriately.
+b. Evaluation metrics correctly applied and compared across models.
+c. Reproducibility ensured (saved models/configs).
+d. Clear reasoning for model choice based on results.
+
+Step 5: Critical Thinking, Ethical AI & Bias Auditing
+a. Excellent use of explainability tools (SHAP/LIME/PDP/ICE).
+b. Thorough discussion of data/model limitations (imbalance, leakage, overfitting).
+c. Bias audit performed across sensitive groups with fairness metrics.
+d. Proposes clear, feasible mitigation strategies.
+
+Step 6: Final Presentation & Communication
+a. Two high-quality, well-structured presentations (technical + business).
+b. Technical deck: clear methodology, visuals, metrics.
+c. Business deck: ROI, risks, strategy clearly communicated for a non-technical audience.
+d. Visually professional and concise (8–12 slides per deck).
+
+Step 7: GitHub Profile & Upload
+a. Public GitHub repo structured like an open-source project (src/, notebooks/, data/, models/).
+b. Includes README, requirements.txt, final report, reproducible code.
+c. Clean, professional commit history.
+
+Bonus points: Creative and well-presented submission
+Demonstrates exceptional creativity, originality, and clear presentation. The submission goes beyond expectations in terms of design, clarity, or innovation.
