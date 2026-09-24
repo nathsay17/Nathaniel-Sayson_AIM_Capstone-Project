@@ -26,6 +26,7 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 ```bash
 git clone <your-github-repo-url>
 pip install -r requirements.txt
+```
 
 **2. Download the Dataset:
 The Olist dataset is too large for version control. Download the CSV files directly from the Kaggle link above and place them inside the data/ folder.
@@ -35,3 +36,10 @@ Run notebooks/Capstone.ipynb top-to-bottom. This will train the SVD model and au
 
 **4. Run the Recommendation API:
 Navigate to the source folder and launch the FastAPI server:
+```bash
+cd src
+python app.py
+```
+
+5. Test the Endpoints:
+Open a web browser and navigate to the interactive Swagger UI at `http://127.0.0.1:8000/docs` to test user IDs.
