@@ -29,10 +29,10 @@ pip install -r requirements.txt
 ```
 
 **2. Download the Dataset:
-The Olist dataset is too large for version control. Download the CSV files directly from the Kaggle link above and place them inside the data/ folder.
+The Olist dataset is too large for version control. Download the CSV files directly from the Kaggle link above and place them inside the `data/` folder.
 
 **3. Generate the Models:
-Run notebooks/Capstone.ipynb top-to-bottom. This will train the SVD model and automatically export the required svd_model.pkl and unique_products.pkl files into the models/ directory.
+Run `notebooks/Capstone.ipynb` top-to-bottom. This will train the SVD model and automatically export the required `svd_model.pkl` and `unique_products.pkl` files into the `models/` directory.
 
 **4. Run the Recommendation API:
 Navigate to the source folder and launch the FastAPI server:
