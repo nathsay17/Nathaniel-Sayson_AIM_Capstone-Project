@@ -43,7 +43,8 @@ python app.py
 
 **5. Test the Endpoints:**
 * Open a web browser and navigate to the interactive Swagger UI at `http://127.0.0.1:8000/docs` to test user IDs.
-* Click on the GET /recommendations endpoint block to expand it.
+* Click on the green POST /recommend endpoint block to expand it.
 * Click the "Try it out" button on the right side.
-* Enter a valid user_id in the required string field. (You can copy a sample User ID directly from the output of the final code cell in the Capstone.ipynb notebook).
-* Click the blue "Execute" button to view the model's personalized product recommendations in the response body.
+* In the Request Body text box, enter a valid User ID in the required JSON format. (Note: You can generate a list of 20 valid, pre-processed User IDs by running the final code cell in the Capstone.ipynb notebook).
+* Click the large blue "Execute" button.
+* Scroll down to the Server response section to view the model's personalized top product recommendations tailored to that specific user.
